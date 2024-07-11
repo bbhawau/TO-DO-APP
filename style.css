@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(245, 103, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: white;
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  border-radius: 20px;
+}
+
+input {
+  width: 30vw;
+  padding: 5px;
+  height: 3vh;
+  border-radius: 5px;
+  border: 2px solid rgb(245, 103, 129);
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#addButton {
+  width: 30vw;
+  height: 5vh;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(245, 103, 129);
+  background-color: white;
+  color: rgb(245, 103, 129);
+  font-size: 20px;
+}
+
+h1 {
+  color: rgb(245, 103, 129);
+}
+ul {
+  width: 25vw;
+  text-align: center;
+ 
+}
+
+
+
+
+li {
+  list-style: none;
+ border: 2px solid rgb(245, 103, 129);
+padding: 10px;
+ font-size: 25px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.deleteBtn {
+  background-color: rgb(245, 103, 129);
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+}
