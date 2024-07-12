@@ -17,7 +17,7 @@ div {
   border-radius: 20px;
 }
 
-input {
+#task {
   width: 30vw;
   padding: 5px;
   height: 3vh;
@@ -61,7 +61,7 @@ padding: 10px;
 }
 
 
-.deleteBtn {
+.deleteBtn, .editBtn {
   background-color: rgb(245, 103, 129);
   margin-left: 10px;
   border-radius: 5px;
